@@ -1,0 +1,36 @@
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+a {
+	display: inline-block;
+	text-decoration: none;
+	color: #7a7171;
+}
+
+ul,
+li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+body {
+	font-family: "Days One", sans-serif;
+	font-size: 16px;
+	line-height: 30px;
+	color: #7a7171;
+	background-color: #fff;
+	overflow-x: hidden;
+}
+
+.container {
+	max-width: 1300px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
